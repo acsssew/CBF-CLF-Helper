@@ -2,6 +2,7 @@ close all;
 clear all;
 % Init state.
 x0 = [0; 0; 4; 0];
+x0 = [0; 0; 5; 0]; % this is for git test
 
 % Target position
 params.p_d = [10; 0];
