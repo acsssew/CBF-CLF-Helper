@@ -22,8 +22,8 @@ params.T = 1.8;
 params.u_max = params.ca * params.m * params.g;
 params.u_min  = -params.cd * params.m * params.g;
 
-params.clf.rate = 5;
-params.cbf.rate = 5;
+params.clf.rate = 5; % decay rate
+params.cbf.rate = 5; % decay rate
 
 
 params.weight.input = 2/params.m^2;
